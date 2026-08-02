@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TastManagementApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7149b1daf247c5abb756f31842705bc7aa6ed2ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84502524e7321d452d1549a17e551fa2cec25223")]
 [assembly: System.Reflection.AssemblyProductAttribute("TastManagementApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TastManagementApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
