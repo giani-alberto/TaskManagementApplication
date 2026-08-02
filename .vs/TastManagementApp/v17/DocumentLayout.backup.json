@@ -30,8 +30,7 @@
               "RelativeToolTip": "TastManagementApp\\TaskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T18:09:34.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-01T18:09:34.508Z"
             },
             {
               "$type": "Document",
@@ -39,9 +38,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\giani\\Desktop\\TaskManagementApp\\TastManagementApp\\TastManagementApp\\Program.cs",
               "RelativeDocumentMoniker": "TastManagementApp\\Program.cs",
-              "ToolTip": "C:\\Users\\giani\\Desktop\\TaskManagementApp\\TastManagementApp\\TastManagementApp\\Program.cs",
-              "RelativeToolTip": "TastManagementApp\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAABWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\giani\\Desktop\\TaskManagementApp\\TastManagementApp\\TastManagementApp\\Program.cs*",
+              "RelativeToolTip": "TastManagementApp\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-01T18:01:04.314Z",
               "EditorCaption": ""
