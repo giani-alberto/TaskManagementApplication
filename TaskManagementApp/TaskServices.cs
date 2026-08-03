@@ -3,15 +3,15 @@ using System.IO;
 using System.Reflection;
 using System.Text.Json;
 
-namespace TastManagementApp
+namespace TaskManagementApp
 {
-    public class TaskService
+    public class TaskServices
     {
         List<TaskItem> tasks = new List<TaskItem>();
         int nextId = 1;
         string file = "tasks.json";
 
-        public TaskService()
+        public TaskServices()
         {
             if (File.Exists(file))
             {
