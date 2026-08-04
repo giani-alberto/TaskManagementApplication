@@ -33,18 +33,28 @@ namespace TaskManagementAPI
             }
         }
 
-        public void AddTask(string title,string priority, string description)
+        public void AddTask(string title, string priority, string description)
         {
+            int newId;
+            if (tasks.Count == 0)
+            {
+                newId = 1; 
+            }
+            else
+            {
+                newId = tasks.Max(t => t.Id) + 1;
+            }
+
             TaskItem newTask = new TaskItem()
             {
-                Id = nextId,
+                Id = newId,
                 Title = title,
                 Priority = priority,
                 Description = description,
                 IsCompleted = false,
             };
+
             tasks.Add(newTask);
-            nextId++;
         }
 
         public List<TaskItem> GetAllTasks()
