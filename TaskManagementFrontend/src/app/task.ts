@@ -26,4 +26,21 @@ export class TaskService{
     responseType: 'text' as 'json' 
   });
     }
+
+    deleteTask(id:number)
+    {
+        return this.http.delete(`https://localhost:7062/api/tasks/${id}`,
+            {
+                responseType: 'text' as 'json'
+            });
+    }
+
+    updateTask(id:number, status:boolean)
+    {
+        const statusString= status? 'true' : 'false';
+     return this.http.put(`https://localhost:7062/api/tasks/${id}/complete?status=${status}`, null, 
+        {
+            responseType: 'text' as 'json'
+        });
+    }
 }

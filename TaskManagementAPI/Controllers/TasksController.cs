@@ -44,7 +44,7 @@ namespace TaskManagementAPI.Controllers
                 return NotFound($"The task {id} was not found!");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             bool WasDeleted =_tasksService.DeleteTask(id);

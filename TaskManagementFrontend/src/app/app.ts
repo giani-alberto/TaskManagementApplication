@@ -55,4 +55,35 @@ constructor(private taskService: TaskService, private cdr: ChangeDetectorRef) {}
    });
 
   }
+
+  deleteTask(id:number)
+  {
+    this.taskService.deleteTask(id).subscribe({
+      next:(answer)=>{
+        console.log('Task deleted successfully:', answer);
+        this.loadTasks();
+      },
+      error:(error)=>
+      {
+        console.error('Error',error);
+      }
+    });
+  }
+
+  updateTask(task:any, event : any)
+  {
+    const isChecked = event.target.checked;
+
+    this.taskService.updateTask(task.id, isChecked).subscribe({
+      next:(answer)=>{
+        console.log('Task status changed:',answer);
+        this.loadTasks();
+      },
+      error:(error)=>
+      {
+        console.error('Error',error);
+        event.target.checked= !isChecked;
+      }
+    });
+  }
 }
